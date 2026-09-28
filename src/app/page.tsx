@@ -13,11 +13,11 @@ import { faqItems, useCases } from "@/lib/data";
 
 export default function HomePage() {
   return (
-    <>        <div className="mx-auto max-w-6xl px-4 py-4 sm:px-6">
-          <TrustStrip />
-        </div>
-        <MarketingGraphicsStack />
-
+    <div className="px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-6xl py-4">
+        <TrustStrip />
+      </div>
+      <MarketingGraphicsStack />
       <Hero />
 
       <Section
@@ -178,6 +178,6 @@ export default function HomePage() {
           View pricing
         </Link>
       </div>
-    </>
+    </div>
   );
 }
